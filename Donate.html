@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <img
+        class="logo"
+        src="https://internship.thesparksfoundation.info/assests/img/logo.png"
+        width="5%"
+        max-width="5%"
+        height="auto"
+        alt="logo"
+        usemap="#image-map"
+      />
+
+      <section style="padding-bottom: 2em" class="header-content">
+        <h1>Thank you for choosing to donate</h1>
+        <p>
+          Your contribution is very valuable and will greatly help the sparks
+          foundation bring eduation and experience to all.
+        </p>
+        <div
+          class="razorpay-embed-btn"
+          data-url="https://pages.razorpay.com/pl_I9wbgLogPg6Kca/view"
+          data-text="Donate Now"
+          data-color="#528FF0"
+          data-size="large"
+        >
+          <script>
+            (function () {
+              var d = document;
+              var x = !d.getElementById("razorpay-embed-btn-js");
+              if (x) {
+                var s = d.createElement("script");
+                s.defer = !0;
+                s.id = "razorpay-embed-btn-js";
+                s.src = "https://cdn.razorpay.com/static/embed_btn/bundle.js";
+                d.body.appendChild(s);
+              } else {
+                var rzp = window["__rzp__"];
+                rzp && rzp.init && rzp.init();
+              }
+            })();
+          </script>
+        </div>
+        <button><a href="Home.html">Go Back</a></button>
+      </section>
+    </header>
+    <footer>
+      <p>
+        Copyright &#169; Devesh D R. GRIP @ The Sparks Foundation. All rights
+        reserved.
+      </p>
+    </footer>
+  </body>
+</html>
